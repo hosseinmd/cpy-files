@@ -1,0 +1,9 @@
+.prettierrc
+.gitattributes
+.vscode
+.eslintignore
+.eslintrc.js
+.gitignore
+.prettierrc
+__tests__/
+src/

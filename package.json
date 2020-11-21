@@ -1,0 +1,64 @@
+{
+	"name": "cpy-sync",
+	"version": "0.0.1",
+	"description": "Copy files",
+	"license": "MIT",
+	"repository": "https://github.com/hosseinmd/cpy-sync",
+	"author": {
+		"name": "Hossein mohammadi",
+		"email": "hosseinm.developer@gmail.com",
+		"url": "https://github.com/hosseinmd"
+	},
+	"bin": {
+		"cpy": "dist/cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"prepare": "tsc",
+		"test": "ava"
+	},
+	"files": [
+		"dist/cli.js",
+		"dist/cpy.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"copy",
+		"cp",
+		"cpy",
+		"file",
+		"files",
+		"clone",
+		"fs",
+		"stream",
+		"glob",
+		"file-system",
+		"ncp",
+		"fast",
+		"quick",
+		"data",
+		"content",
+		"contents"
+	],
+	"dependencies": {
+		"cpy": "^8.0.0",
+		"meow": "^6.1.1"
+	},
+	"devDependencies": {
+		"@react-native-community/eslint-config": "1.1.0",
+		"@typescript-eslint/eslint-plugin": "^3.8.0",
+		"@typescript-eslint/parser": "^2.20.0",
+		"eslint": "7.3.1",
+		"eslint-plugin-prettier": "3.1.4",
+		"prettier": "2.0.5",
+		"prettier-plugin-jsdoc": "^0.1.1",
+		"typescript": "3.9.7",
+		"ava": "^2.4.0",
+		"execa": "^1.0.0",
+		"path-exists": "^4.0.0",
+		"tempfile": "^3.0.0"
+	}
+}
