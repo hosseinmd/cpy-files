@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "Copy files",
 	"license": "MIT",
-	"repository": "https://github.com/hosseinmd/cpy-sync",
+	"repository": "https://github.com/hosseinmd/cpy-files",
 	"author": {
 		"name": "Hossein mohammadi",
 		"email": "hosseinm.developer@gmail.com",
