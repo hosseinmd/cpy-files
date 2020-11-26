@@ -9,7 +9,7 @@ import cpy from "cpy";
 const cli = meow(
   `
 	Usage
-	  $ cpy-sync <source …> <destination>
+	  $ cpy-files <source …> <destination>
 
 	Options
 	  --no-overwrite       Don't overwrite the destination
@@ -22,10 +22,10 @@ const cli = meow(
 
 	Examples
 	  Copy all .png files in src folder into dist except src/goat.png
-	  $ cpy-sync 'src/*.png' '!src/goat.png' dist
+	  $ cpy-files 'src/*.png' '!src/goat.png' dist
 
 	  Copy all .html files inside src folder into dist and preserve path structure
-	  $ cpy-sync '**/*.html' '../dist/' --cwd=src --parents
+	  $ cpy-files '**/*.html' '../dist/' --cwd=src --parents
 `,
   {
     flags: {

@@ -1,29 +1,26 @@
-# cpy-sync
+# cpy-files
 
-Source initialized from cpy-cli
+Source initialized from cpy-files 
 
 > Copy files synchronize
-
-## Why
-
-- Fast by using streams.
-- Resilient by using [graceful-fs](https://github.com/isaacs/node-graceful-fs).
-- User-friendly by accepting [globs](https://github.com/sindresorhus/globby#globbing-patterns) and creating non-existant destination directories.
-- User-friendly error messages.
 
 ## Install
 
 ```
-$ npm install --global cpy-cli
+$ npm install cpy-files 
+```
+or
+```
+$ yarn add cpy-files 
 ```
 
 ## Usage
 
 ```
-$ cpy --help
+$ cpy-files  --help
 
   Usage
-    $ cpy <source …> <destination>
+    $ cpy-files  <source …> <destination>
 
   Options
     --no-overwrite       Don't overwrite the destination
@@ -36,12 +33,8 @@ $ cpy --help
 
   Examples
     Copy all .png files in src folder into dist except src/goat.png
-    $ cpy 'src/*.png' '!src/goat.png' dist
+    $ cpy-files  'src/*.png' '!src/goat.png' dist
 
     Copy all .html files inside src folder into dist and preserve path structure
-    $ cpy '**/*.html' '../dist/' --cwd=src --parents
+    $ cpy-files  '**/*.html' '../dist/' --cwd=src --parents
 ```
-
-## Related
-
-- [cpy-cli](https://github.com/sindresorhus/cpy-cli) - Copy files async
