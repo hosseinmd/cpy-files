@@ -1,6 +1,6 @@
 {
 	"name": "cpy-files",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Copy files",
 	"license": "MIT",
 	"repository": "https://github.com/hosseinmd/cpy-files",
@@ -51,14 +51,14 @@
 		"@react-native-community/eslint-config": "1.1.0",
 		"@typescript-eslint/eslint-plugin": "^3.8.0",
 		"@typescript-eslint/parser": "^2.20.0",
+		"ava": "^2.4.0",
 		"eslint": "7.3.1",
 		"eslint-plugin-prettier": "3.1.4",
-		"prettier": "2.0.5",
-		"prettier-plugin-jsdoc": "^0.1.1",
-		"typescript": "3.9.7",
-		"ava": "^2.4.0",
 		"execa": "^1.0.0",
 		"path-exists": "^4.0.0",
-		"tempfile": "^3.0.0"
+		"prettier": "2.0.5",
+		"prettier-plugin-jsdoc": "^0.1.1",
+		"tempfile": "^3.0.0",
+		"typescript": "3.9.7"
 	}
 }
