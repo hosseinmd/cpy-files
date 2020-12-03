@@ -10,7 +10,7 @@
 		"url": "https://github.com/hosseinmd"
 	},
 	"bin": {
-		"cpy": "dist/cli.js"
+		"cpy-files": "dist/cli.js"
 	},
 	"engines": {
 		"node": ">=8"
