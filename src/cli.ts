@@ -4,7 +4,7 @@
  */
 "use strict";
 import meow from "meow";
-import cpy from "cpy";
+import cpy from "./cpy";
 
 const cli = meow(
   `

@@ -43,6 +43,7 @@ interface Options {
   parents?: any;
   ignoreJunk?: any;
   overwrite?: boolean;
+  dot?: boolean;
 }
 const preprocessSourcePath = (source: string, options: Options) =>
   path.resolve(options.cwd ? options.cwd : process.cwd(), source);
@@ -77,7 +78,7 @@ const preprocessDestinationPath = (
   return path.join(destination, basename);
 };
 
-module.exports = (
+export default (
   source: string | any[] | readonly string[],
   destination: any,
   options: Options = {},
